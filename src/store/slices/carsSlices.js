@@ -32,4 +32,4 @@ const carsSlice = createSlice({
 });
 
 export const { changeSearchTerm, addCar, removeCar } = carsSlice.actions;
-export const carsReducer = createSlice.reducer;
+export const carsReducer = carsSlice.reducer;
